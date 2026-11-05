@@ -108,50 +108,49 @@ function clearStatusClass(element) {
   element.classList.remove("wrong");
 }
 
-const questions = [
-  {
-    question: "Which one of these is a JavaScript framework?",
-    answers: [
-      { text: "Eclipse", correct: false },
-      { text: "Ruby", correct: false },
-      { text: "React", correct: true },
-      { text: "Django", correct: false },
-    ],
-  },
-  {
-    question: "Who is the founder of Microsoft?",
-    answers: [
-      { text: "Bill Gates", correct: true },
-      { text: "Steve Jobs", correct: false },
-      { text: "Jeff Bezos", correct: false },
-      { text: "Elon Musk", correct: false },
-    ],
-  },
-  {
-    question: "What does HTML stand for?",
-    answers: [
-      { text: "Hypertext Markup Language", correct: true },
-      { text: "Hypertext Markdown Language", correct: false },
-      { text: "Hyperloop Machine Language", correct: false },
-      { text: "Helicopters Terminals Motorboats Lamborginis", correct: false },
-    ],
-  },
-  {
-    question: "What year was JavaScript launched?",
-    answers: [
-      { text: "1996", correct: true },
-      { text: "1995", correct: false },
-      { text: "1994", correct: false },
-      { text: "none of the above", correct: false },
-    ],
-  },
-  {
-    question: "What does CSS stand for?",
-    answers: [
-      { text: "Cascading Style Sheet", correct: true },
-      { text: "Cascading Style Sheep", correct: false },
-      { text: "Cascading Supersheet", correct: false },
-      { text: "Cascading Style Sheep", correct: false },
-    ],
-  },
+{
+  question: "ما هو الحاسوب؟",
+  answers: [
+    { text: "جهاز لمعالجة البيانات", correct: true },
+    { text: "جهاز للطباعة فقط", correct: false },
+    { text: "جهاز لتشغيل الألعاب فقط", correct: false },
+    { text: "جهاز لحفظ الصور فقط", correct: false },
+  ],
+},
+ {
+  question: "ما هي المكونات الأساسية للحاسوب؟",
+  answers: [
+    { text: "المكونات المادية والبرمجية", correct: true },
+    { text: "الشاشة فقط", correct: false },
+    { text: "لوحة المفاتيح فقط", correct: false },
+    { text: "الطابعة والفأرة فقط", correct: false },
+  ],
+},
+ {
+  question: "ما وظيفة وحدة المعالجة المركزية (CPU)؟",
+  answers: [
+    { text: "تنفيذ العمليات ومعالجة البيانات", correct: true },
+    { text: "عرض الصور", correct: false },
+    { text: "طباعة المستندات", correct: false },
+    { text: "تشغيل الصوت فقط", correct: false },
+  ],
+},
+ {
+  question: "ما وظيفة ذاكرة RAM؟",
+  answers: [
+    { text: "تخزين البيانات مؤقتًا أثناء التشغيل", correct: true },
+    { text: "حفظ الملفات بشكل دائم", correct: false },
+    { text: "عرض الصور على الشاشة", correct: false },
+    { text: "طباعة المستندات", correct: false },
+  ],
+},
+{
+  question: "ما وظيفة نظام التشغيل؟",
+  answers: [
+    { text: "إدارة موارد الحاسوب وتشغيل البرامج", correct: true },
+    { text: "تصميم الصور فقط", correct: false },
+    { text: "كتابة النصوص فقط", correct: false },
+    { text: "تصفح الإنترنت فقط", correct: false },
+  ],
+},
 ];
