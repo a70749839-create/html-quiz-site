@@ -25,11 +25,17 @@ body {
 }
 
 button.correct {
-  --hue: var(--hue-correct);
+  --hue: 145;
+  background: #b7e4c7;
+  border-color: #74c69d;
+  color: #245c40;
 }
 
 button.wrong {
-  --hue: var(--hue-wrong);
+  --hue: 350;
+  background: #ffc2c2;
+  border-color: #ff8fa3;
+  color: #873b4b;
 }
 
 .container {
