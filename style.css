@@ -149,4 +149,9 @@ button.wrong {
   .btn-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .btn:hover {
+  background: linear-gradient(135deg, #f8b8d0, #f48fb1);
+  transform: translateY(-3px);
+  box-shadow: 0 7px 15px #e8a4c455;
+}
 }
