@@ -19,10 +19,10 @@ nextButton.addEventListener("click", () => {
 });
 
 function startGame() {
-  if (startButton.innerText === "Restart") {
+  if (startButton.innerText === "أعد الاختبار") {
     quizScore = 0;
     currentQuestionIndex = 0;
-    startButton.innerText = "Start";
+  startButton.innerText = "ابدأ الاختبار";
     scoreContainerElement.style.display = "none";
     nextButton.classList.add("hide");
     totalScoreContainerElement.style.display = "none";
